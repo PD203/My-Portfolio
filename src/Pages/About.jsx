@@ -4,7 +4,7 @@ import Sidebar from "../components/Sidebar.jsx";
 import Navbar from "../components/Navbar.jsx";
 import Services from "../components/Services.jsx";
 
-function About() {
+function Aboutt() {
   return (
     <>
       <main>
@@ -38,4 +38,4 @@ function About() {
   );
 }
 
-export default About;
+export default Aboutt;
