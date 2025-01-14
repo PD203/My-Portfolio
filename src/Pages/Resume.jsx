@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import { FaBookOpen } from "react-icons/fa";
 import Sidebar from "../components/Sidebar";
 
-function MyResume() {
+function Resume() {
   return (
     <>
       <main>
@@ -248,4 +248,4 @@ function MyResume() {
   );
 }
 
-export default MyResume;
+export default Resume;
