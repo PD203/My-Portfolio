@@ -231,7 +231,7 @@ function Resume() {
                 </li> */}
 
                 <li className="timeline-item">
-                  <h4 className="h4 timeline-item-title">Freasher</h4>
+                  <h4 className="h4 timeline-item-title">Fresher</h4>
                   {/* <span>2010 — 2013</span> */}
                   {/* <p className="timeline-text">
                     Nemo enims ipsam voluptatem, blanditiis praesentium voluptum

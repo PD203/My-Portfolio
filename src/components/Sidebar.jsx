@@ -78,7 +78,7 @@ function Sidebar() {
             </div>
             <div className="contact-info">
               <p className="contact-title">Birthday</p>
-              <time dateTime="1982-06-23">2 March, 2003</time>
+              <time dateTime="1982-06-23">20 October, 2003</time>
             </div>
           </li>
 
