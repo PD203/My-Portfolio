@@ -27,7 +27,7 @@ const Portfolio = () => {
     
       <strong>Tech Stack:</strong><br>
       Frontend: React.js, Tailwind CSS<br>
-      Backend: Node.js, Express.js<br>
+      Backend: Node.js, Express.js, Socket io<br>
       Database: MongoDB<br>
       Maps Integration: Google Maps API<br><br>
     
@@ -190,7 +190,7 @@ Real-Time Stock Updates: Product availability is updated in real-time to prevent
           <section className="projects">
             {/* Filter Buttons */}
             <ul className="filter-list">
-              {["All", "Web design", "Web development", "Developer Tools"].map(
+              {["All", "Web design", "Web development", "Frontend Showcase", "Developer Tools"].map(
                 (filter, index) => (
                   <li key={index} className="filter-item">
                     <button

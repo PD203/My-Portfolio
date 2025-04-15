@@ -2,7 +2,23 @@ import React from "react";
 import "../App.css";
 import Navbar from "../components/Navbar";
 import { FaBookOpen } from "react-icons/fa";
+import { RiGraduationCapFill } from "react-icons/ri";
 import Sidebar from "../components/Sidebar";
+import {
+  FaHtml5,
+  FaJsSquare,
+  FaReact,
+  FaNodeJs,
+  FaGitAlt,
+} from "react-icons/fa";
+import { IoLogoCss3 } from "react-icons/io5";
+import { SiTailwindcss, SiExpress, SiSocketdotio } from "react-icons/si";
+import { IoLogoGithub } from "react-icons/io";
+import { TbBrandThreejs } from "react-icons/tb";
+import { BiLogoMongodb } from "react-icons/bi";
+import motion from "../assets/images/motion.jpg";
+import figma from "../assets/images/figma.png";
+import restapi from "../assets/images/restapi.jpg";
 
 function Resume() {
   return (
@@ -20,7 +36,7 @@ function Resume() {
             <section className="timeline">
               <div className="title-wrapper">
                 <div className="icon-box">
-                  <FaBookOpen />
+                  <RiGraduationCapFill />
                 </div>
                 <h3 className="h3">Education</h3>
               </div>
@@ -57,6 +73,7 @@ function Resume() {
               <ul className="skills-list content-card">
                 <li className="skills-item">
                   <div className="title-wrapper">
+                    <FaHtml5 color="#E34F26" size={25} />
                     <h5 className="h5">HTML</h5>
                     <data value="90">90%</data>
                   </div>
@@ -70,6 +87,7 @@ function Resume() {
 
                 <li className="skills-item">
                   <div className="title-wrapper">
+                    <IoLogoCss3 color="#1572B6" size={25} />
                     <h5 className="h5">CSS</h5>
                     <data value="80">80%</data>
                   </div>
@@ -83,19 +101,7 @@ function Resume() {
 
                 <li className="skills-item">
                   <div className="title-wrapper">
-                    <h5 className="h5">Tailwind CSS</h5>
-                    <data value="75">75%</data>
-                  </div>
-                  <div className="skill-progress-bg">
-                    <div
-                      className="skill-progress-fill"
-                      style={{ width: "75%" }}
-                    ></div>
-                  </div>
-                </li>
-
-                <li className="skills-item">
-                  <div className="title-wrapper">
+                    <FaJsSquare color="#F7DF1E" size={25} />
                     <h5 className="h5">Javascript</h5>
                     <data value="80">80%</data>
                   </div>
@@ -109,7 +115,8 @@ function Resume() {
 
                 <li className="skills-item">
                   <div className="title-wrapper">
-                    <h5 className="h5">React JS</h5>
+                    <FaReact color="#61DAFB" size={25} />
+                    <h5 className="h5">React.jS</h5>
                     <data value="70">70%</data>
                   </div>
                   <div className="skill-progress-bg">
@@ -122,6 +129,81 @@ function Resume() {
 
                 <li className="skills-item">
                   <div className="title-wrapper">
+                    <SiTailwindcss color="#38BDF8" size={25} />
+                    <h5 className="h5">Tailwind CSS</h5>
+                    <data value="75">75%</data>
+                  </div>
+                  <div className="skill-progress-bg">
+                    <div
+                      className="skill-progress-fill"
+                      style={{ width: "75%" }}
+                    ></div>
+                  </div>
+                </li>
+
+                <li className="skills-item">
+                  <div className="title-wrapper">
+                    <img
+                      src="https://assets.codepen.io/16327/internal/avatars/users/default.png?fit=crop&format=auto&height=256&version=1697554632&width=256"
+                      style={{ height: 25 }}
+                    />
+                    <h5 className="h5">GSAP</h5>
+                    <data value="60">60%</data>
+                  </div>
+                  <div className="skill-progress-bg">
+                    <div
+                      className="skill-progress-fill"
+                      style={{ width: "75%" }}
+                    ></div>
+                  </div>
+                </li>
+
+                <li className="skills-item">
+                  <div className="title-wrapper">
+                    {/* <SiFramer color="#0055FF" size={25} /> */}
+                    <img src={motion} style={{ height: 25 }} />
+                    <h5 className="h5">Framer Motion</h5>
+                    <data value="60">60%</data>
+                  </div>
+                  <div className="skill-progress-bg">
+                    <div
+                      className="skill-progress-fill"
+                      style={{ width: "75%" }}
+                    ></div>
+                  </div>
+                </li>
+
+                <li className="skills-item">
+                  <div className="title-wrapper">
+                    <TbBrandThreejs color="#000" size={25} />
+                    <h5 className="h5">Three.js</h5>
+                    <data value="50">50%</data>
+                  </div>
+                  <div className="skill-progress-bg">
+                    <div
+                      className="skill-progress-fill"
+                      style={{ width: "75%" }}
+                    ></div>
+                  </div>
+                </li>
+
+                <li className="skills-item">
+                  <div className="title-wrapper">
+                    <SiSocketdotio color="#000" size={25} />
+                    <h5 className="h5">Socket io</h5>
+                    <data value="60">60%</data>
+                  </div>
+                  <div className="skill-progress-bg">
+                    <div
+                      className="skill-progress-fill"
+                      style={{ width: "80%" }}
+                    ></div>
+                  </div>
+                </li>
+
+                <li className="skills-item">
+                  <div className="title-wrapper">
+                    <FaNodeJs color="#3c873a" size={25} />
                     <h5 className="h5">Node JS</h5>
                     <data value="60">60%</data>
                   </div>
@@ -135,6 +217,7 @@ function Resume() {
 
                 <li className="skills-item">
                   <div className="title-wrapper">
+                    <img src={restapi} style={{ height: 25 }} />
                     <h5 className="h5">Restful APIs</h5>
                     <data value="60">60%</data>
                   </div>
@@ -148,6 +231,7 @@ function Resume() {
 
                 <li className="skills-item">
                   <div className="title-wrapper">
+                    <SiExpress color="#000" size={25} />
                     <h5 className="h5">Express</h5>
                     <data value="60">60%</data>
                   </div>
@@ -161,7 +245,8 @@ function Resume() {
 
                 <li className="skills-item">
                   <div className="title-wrapper">
-                    <h5 className="h5">Mongo Db</h5>
+                    <BiLogoMongodb color="#3FA037" size={25} />
+                    <h5 className="h5">MongoDb</h5>
                     <data value="60">60%</data>
                   </div>
                   <div className="skill-progress-bg">
@@ -174,6 +259,7 @@ function Resume() {
 
                 <li className="skills-item">
                   <div className="title-wrapper">
+                    <img src={figma} style={{ height: 25 }} />
                     <h5 className="h5">Figma</h5>
                     <data value="50">50%</data>
                   </div>
@@ -187,6 +273,8 @@ function Resume() {
 
                 <li className="skills-item">
                   <div className="title-wrapper">
+                    <FaGitAlt color="#F1502F" size={25} />
+                    <IoLogoGithub color="#000" size={25} />
                     <h5 className="h5">Git & Github</h5>
                     <data value="50">50%</data>
                   </div>
@@ -201,7 +289,7 @@ function Resume() {
             </section>
 
             {/* Experience Section */}
-            <section style={{ marginTop: "20px" }}  className="timeline">
+            <section style={{ marginTop: "20px" }} className="timeline">
               <div className="title-wrapper">
                 <div className="icon-box">
                   <FaBookOpen />

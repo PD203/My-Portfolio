@@ -31,7 +31,7 @@ function Sidebar() {
           <h1 className="name" title="Preeti Dalai">
             Preeti Dalai
           </h1>
-          <p className="title">MERN Stack Developer</p>
+          <h1 className="title">Frontend Developer</h1>
         </div>
 
         <button

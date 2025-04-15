@@ -1,7 +1,7 @@
 import React from "react";
 import '../App.css'
-import webdesign from "../assets/images/icon-design.svg"
-import webdevelopment from "../assets/images/icon-dev.svg"
+import webdesign from "../assets/images/icon-design.png"
+import webdevelopment from "../assets/images/icon-dev.png"
 import mobileApp from "../assets/images/icon-app.svg"
 import photoGraphy from "../assets/images/icon-photo.svg"
 
@@ -22,7 +22,7 @@ function Services() {
             />
           </div>
           <div className="service-content-box">
-            <h4 className="h4 service-item-title">Web development</h4>
+            <h4 className="h4 service-item-title">Frontend Development</h4>
             <p className="service-item-text">
             Building functional websites to meet your business needs.
             </p>
