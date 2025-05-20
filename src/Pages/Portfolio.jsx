@@ -256,6 +256,7 @@ Real-Time Stock Updates: Product availability is updated in real-time to prevent
                 {[
                   "All",
                   "Web design",
+                  "Frontend Showcase",
                   "Web development",
                   "Developer Tools",
                 ].map((filter, index) => (
