@@ -88,7 +88,7 @@ function Sidebar() {
             </div>
             <div className="contact-info">
               <p className="contact-title">Location</p>
-              <address>Raipur, India</address>
+              <address>Delhi, India</address>
             </div>
           </li>
         </ul>

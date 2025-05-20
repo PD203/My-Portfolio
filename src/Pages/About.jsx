@@ -19,7 +19,7 @@ function About() {
             <section className="about-text">
               <p>
                 Hello! I'm Preeti Dalai, a Front-end Developer and UI Designer
-                from Raipur, India, where creativity meets code. I’m obsessed
+                from Delhi, India, where creativity meets code. I’m obsessed
                 with crafting jaw-dropping, user-friendly web experiences that
                 feel as good as they look. Armed with HTML, CSS, JavaScript,
                 React, and the magic of Tailwind CSS, I build responsive,
@@ -37,7 +37,7 @@ function About() {
 
               <p>
                 When I'm not crafting interfaces or sketching wireframes, you
-                can find me exploring the vibrant culture of Raipur, diving into
+                can find me exploring the vibrant culture of Delhi, diving into
                 the latest design trends, or sipping chai while planning my next
                 creative project. Let’s collaborate to build something
                 extraordinary!

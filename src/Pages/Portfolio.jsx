@@ -6,6 +6,8 @@ import project1 from "../assets/images/project-1.png";
 import project2 from "../assets/images/project-2.png";
 import project3 from "../assets/images/project-3.png";
 import project4 from "../assets/images/project-4.gif";
+import project5 from "../assets/images/figma1.jpg";
+import project6 from "../assets/images/project6.png";
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 import Modal from "../components/Modal";
@@ -15,6 +17,32 @@ const Portfolio = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const projects = [
+    {
+      id: 6,
+      title: "Game Development Agency Landing Page",
+      category: "Web Development",
+      image: project6,
+      link: "https://3-dlandingpage-nnfc.vercel.app/",
+      description: "A responsive and modern landing page for a game development agency.",
+      FullDes: `A professionally designed landing page created for a fictional game development agency, <strong>PixelForge Studios</strong>, with the goal of attracting clients, showcasing services, and promoting the brand.<br><br>
+    
+    <strong>Tech Stack:</strong><br><br>
+    
+    Frontend: React.js, Tailwind CSS, React Three Fiber, GSAP<br>
+    Animations: Framer Motion<br>
+    Deployment: Vercel <br><br>
+    
+    <strong>Features:</strong><br><br>
+    
+    Hero Section: A captivating hero with headline, subheading, and CTA button to grab user attention instantly.<br>
+    Services Section: Clear display of services offered such as Game Development, Mobile Games, Game Art, AR/VR solutions, and Game Consulting.<br>
+    Portfolio Showcase: Highlights featured games with titles, images, and brief descriptions.<br>
+    Responsive Design: Fully optimized for mobile, tablet, and desktop screens.<br>
+    Smooth Animations: Interactive animations to enhance user experience without compromising performance.<br>
+    
+    This landing page is ideal for any creative studio looking to build a professional online presence in the gaming industry.`,
+    }
+    ,
     {
       id: 1,
       title: "GoDrive",
@@ -38,30 +66,30 @@ const Portfolio = () => {
       - Navigation: Captains receive optimized routes to reach the user's location efficiently.<br>
       - Journey Completion: Once the ride is completed, the platform updates the status and records the trip details.`,
     },
-    {
-      id: 2,
-      title: "CineScope",
-      category: "Web development",
-      image: project2,
-      link: "https://movie-streaming-green.vercel.app/",
-      description: "A platform to explore and discover movies effortlessly.",
-      FullDes: `CineScope is a movie discovery platform built using the TMDB (The Movie Database) API, offering users an easy way to explore trending, popular, and top-rated movies. It features detailed movie information, such as overviews, ratings, and genres, as well as real-time search functionality.<br><br>
+//     {
+//       id: 2,
+//       title: "CineScope",
+//       category: "Web development",
+//       image: project2,
+//       link: "https://movie-streaming-green.vercel.app/",
+//       description: "A platform to explore and discover movies effortlessly.",
+//       FullDes: `CineScope is a movie discovery platform built using the TMDB (The Movie Database) API, offering users an easy way to explore trending, popular, and top-rated movies. It features detailed movie information, such as overviews, ratings, and genres, as well as real-time search functionality.<br><br>
 
-<strong>Tech Stack:</strong><br>
-Frontend: React.js, Tailwind CSS<br>
-Backend: Node.js, Express.js<br>
-API: TMDB API<br><br>
+// <strong>Tech Stack:</strong><br>
+// Frontend: React.js, Tailwind CSS<br>
+// Backend: Node.js, Express.js<br>
+// API: TMDB API<br><br>
 
-<strong>How It Works:</strong><br>
+// <strong>How It Works:</strong><br>
 
-- Movie Details: Clicking on a movie displays detailed information such as plot, ratings, release date, and genre.<br>
-- Trending and Popular Lists: The platform also displays lists of trending, popular, and top-rated movies based on TMDB's real-time data.<br>
-- User-Friendly UI: The design offers an easy-to-navigate interface, making it simple for users to discover their next movie.`,
-    },
+// - Movie Details: Clicking on a movie displays detailed information such as plot, ratings, release date, and genre.<br>
+// - Trending and Popular Lists: The platform also displays lists of trending, popular, and top-rated movies based on TMDB's real-time data.<br>
+// - User-Friendly UI: The design offers an easy-to-navigate interface, making it simple for users to discover their next movie.`,
+//     },
     {
       id: 3,
       title: "Ecommerce Cosmetics",
-      category: "Web development",
+      category: "Frontend Showcase",
       image: project3,
       link: "https://github.com/PD203/Ecommerce-cosmetics",
       description: "A full-stack e-commerce for beauty products.",
@@ -92,14 +120,13 @@ Real-Time Stock Updates: Product availability is updated in real-time to prevent
     },
     {
       id: 4,
-      title: "Git Clone",
+      title: "Game Development Agency Landing Page",
       category: "Developer Tools",
       image: project4,
       link: "https://github.com/PD203/GitCLoneJS",
       description:
-        "A simplified version of Git, focusing on core version control concepts and functionality.",
-      FullDes: `This project is a custom command-line tool that mimics some core Git functionalities. It includes several commands to interact with repositories, such as creating a Git directory, hashing objects, viewing commit trees, and cloning repositories. Each command is designed to handle specific Git operations, enabling users to simulate basic Git workflows.<br><br>
-       <strong>Implemented Commands</strong><br><br>
+        "A professional landing page for a game development agency showcasing services, portfolio, and branding.",
+      FullDes: `This project is a modern, responsive landing page designed for a fictional game development agency, <strong>PixelForge Studios</strong>. The goal is to capture leads and present the agency’s offerings in a visually compelling format.<br><br>
 
  - init: Initializes a new Git directory.<br>
  - cat-file: Displays object contents from the repository.<br>
@@ -110,6 +137,18 @@ Real-Time Stock Updates: Product availability is updated in real-time to prevent
  - clone: Clones a repository to a new location.
         `,
     },
+    {
+      id: 5,
+      title: "Candles Landing Page",
+      category: "Web design",
+      image: project5,
+      link: "https://www.figma.com/design/ZEIAG073ARBlVzUSn3uk83/Untitled?node-id=0-1&t=VEAUEinwQMyw5cP6-1",
+      description:
+        "Aesthetic Candle Landing Page | Figma UI Design.",
+      FullDes: `The goal was to create a visually calming and aesthetically pleasing interface that reflects the soothing nature of candles. The design features a warm, earthy color palette, minimalist typography, and high-quality product imagery to enhance user engagement.
+        `,
+    },
+   
   ];
 
   const openModal = (project) => {
@@ -169,10 +208,10 @@ Real-Time Stock Updates: Product availability is updated in real-time to prevent
     return () => {
       select?.removeEventListener("click", () => toggleElement(select));
       selectItems.forEach((item) =>
-        item.removeEventListener("click", function () {})
+        item.removeEventListener("click", function () { })
       );
       filterButtons.forEach((btn) =>
-        btn.removeEventListener("click", function () {})
+        btn.removeEventListener("click", function () { })
       );
     };
   }, []);

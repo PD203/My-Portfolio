@@ -1,4 +1,3 @@
-import React from "react";
 import "../App.css";
 import Navbar from "../components/Navbar";
 import { FaBookOpen } from "react-icons/fa";
@@ -177,6 +176,19 @@ function Resume() {
                   <div className="title-wrapper">
                     <TbBrandThreejs color="#000" size={25} />
                     <h5 className="h5">Three.js</h5>
+                    <data value="50">50%</data>
+                  </div>
+                  <div className="skill-progress-bg">
+                    <div
+                      className="skill-progress-fill"
+                      style={{ width: "75%" }}
+                    ></div>
+                  </div>
+                </li>
+
+                <li className="skills-item">
+                  <div className="title-wrapper">
+                    <h5 className="h5">React Three Fiber</h5>
                     <data value="50">50%</data>
                   </div>
                   <div className="skill-progress-bg">
