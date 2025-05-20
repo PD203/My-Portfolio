@@ -3,7 +3,7 @@ import "../App.css";
 import { FaEye } from "react-icons/fa";
 import { IoMdArrowDropdown } from "react-icons/io";
 import project1 from "../assets/images/project-1.png";
-import project2 from "../assets/images/project-2.png";
+// import project2 from "../assets/images/project-2.png";
 import project3 from "../assets/images/project-3.png";
 import project4 from "../assets/images/project-4.gif";
 import project5 from "../assets/images/figma1.jpg";
@@ -20,7 +20,7 @@ const Portfolio = () => {
     {
       id: 6,
       title: "Game Development Agency Landing Page",
-      category: "Web Development",
+      category: "Frontend Showcase",
       image: project6,
       link: "https://3-dlandingpage-nnfc.vercel.app/",
       description: "A responsive and modern landing page for a game development agency.",
@@ -89,7 +89,7 @@ const Portfolio = () => {
     {
       id: 3,
       title: "Ecommerce Cosmetics",
-      category: "Frontend Showcase",
+      category: "Web development",
       image: project3,
       link: "https://github.com/PD203/Ecommerce-cosmetics",
       description: "A full-stack e-commerce for beauty products.",
